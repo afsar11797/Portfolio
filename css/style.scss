@@ -47,7 +47,7 @@ nav {
 }
 
 .container {
-  min-height: calc(100vh - 88px - 325.333px);
+  min-height: calc(100vh - 20px - 300px);
 }
 
 .popup {
@@ -56,9 +56,11 @@ nav {
 }
 
 .footer {
-  background-image: linear-gradient(45deg,
-      rgb(233, 229, 229),
-      rgb(180, 180, 185));
+  background-image: linear-gradient(
+    45deg,
+    rgb(233, 229, 229),
+    rgb(180, 180, 185)
+  );
   font-weight: 500;
   padding: 20px 0;
 
@@ -114,11 +116,13 @@ nav {
     }
 
     & li:nth-child(4) a:before {
-      background-image: linear-gradient(to right,
-          #5154db,
-          #f70015,
-          #e6e947,
-          #1fce28);
+      background-image: linear-gradient(
+        to right,
+        #5154db,
+        #f70015,
+        #e6e947,
+        #1fce28
+      );
     }
 
     ul li a {
@@ -149,11 +153,13 @@ nav {
 
 .heading__intro {
   font-style: italic;
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
-  font-size: 5em;
-  white-space: nowrap;
-  margin: 3em auto;
-  margin-left: 2em;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+.heading__introo {
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
 }
