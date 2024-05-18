@@ -6,6 +6,8 @@
   }
   .my_name {
     letter-spacing: normal;
+    display: flex;
+    justify-content: center;
   }
   .container {
     min-height: calc(100vh - 93px - 232.666px);

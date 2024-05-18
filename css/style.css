@@ -41,12 +41,44 @@ nav {
 }
 
 .container {
-  min-height: calc(100vh - 20px - 300px);
+  min-height: calc(100vh - 20px - 330px);
 }
 
-.popup {
+.about-me {
+  padding: 3em 0;
+  position: relative;
+}
+.about-me__container {
+  position: relative;
+  top: -12em;
+}
+.about-me__container h2 {
+  font-size: 7em;
+  text-align: center;
+  margin-bottom: 0.75em;
+}
+.about-me__container p {
+  font-size: 3em;
+  text-align: center;
+}
+.about-me__img-1 {
+  left: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about-me__img-2 {
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-me img {
   position: absolute;
-  height: 80vh;
+  display: block;
+  height: 25em;
+  top: 10%;
+  width: auto;
+  border: #000000;
 }
 
 .footer {
