@@ -23,3 +23,13 @@ window.addEventListener("load", () => {
     loop: true,
   });
 });
+
+window.addEventListener("load", () => {
+  new Typewriter("#typewriterrr", {
+    strings: ["BUILDING UP",
+      "LOADING SOON"
+    ],
+    autoStart: true,
+    loop: true,
+  });
+});
